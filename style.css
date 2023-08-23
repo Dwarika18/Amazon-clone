@@ -1,0 +1,37 @@
+
+
+#outer{
+    color:#080827;
+    text-align: left;
+    text-decoration:none;
+    line-height: normal;
+    font-size: 25px;;
+}
+#inner{
+    font-size: 10px;
+    color:red;
+    line-height: normal;
+}
+.myclass{
+    background-color:greenyellow;
+    margin-top: 40px ;
+
+    
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    color:#080827;
+    font-weight:bolder ;
+    font-size: 60px;
+   visibility: hidden;
+}
+@media(min-width:600px){
+    div{
+     
+        /* transform: rotate(45deg); */
+        transform: scale(1.5);
+        transform: translate(20px);
+    }
+}
